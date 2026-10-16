@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Black goese bistro | Pizza-on-Demand</h1>
+  <img src="pizza.jpg" alt="" width="200px"/>
+  <p>
+    our 12&quet; wood-fired pizzas are available for delivery
+  </p>
+  
+  <from action="http://www.blackgoosebistro.com/pizza.php"method="post">
+    <fieldset border="1">
+      <p>
+      <legend>Your Information</legend>
+      </p> 
+    
+      <p>
+      <label for="name">Name: </label>
+      <input type="text" id="name" name"name">
+      </p>
+      
+      <p>
+      <label for="address">address: </label>
+      <input type="text" id="address" name"address"> 
+      </p>
+
+      <p>
+      <label for="phone">phone: </label>
+      <input type="tel" id="phone" name"phone"> 
+      </p>
+
+      <p>
+      <label for="email">email: </label>
+      <input type="email" id="email" name"email"> 
+      </p>
+
+      <p>
+        
+      </p>
+
+          <label for="instuction">delivery instuction:</label>
+          <textarea 
+            id="instruction"
+            name="instruction"
+            rows="4"
+            cols="50"
+            maxlength="400"
+            place holder="no more than 400 characters">
+            </textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>design your dream pizza</legend>
+      <p>pizza specs</p>
+      <p>pilih 1:</p>
+
+      <p>
+        <input type="radio" id="classic" name="crust"  value="Classic White" required>
+        <label for="classic">Classic white</label><br>
+        
+        <input type="radio" id="multigrain" name="crust" value="multigrain" required>
+        <label for="multigrain">multigrain</label><br>
+
+        <input type="radio" id="cheese" name="crust" value="Cheese" required>
+        <label for="Cheese">Cheese</label><br>
+
+        <input type="radio" id="gluten" name="crust" value="gluten" required>
+        <label for="gluten">gluten</label><br>
+      </p>
+
+      <p>topping</p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="Red sauce" cheked>
+        <label for="Red sauce"> Red sause</label><br>
+      </p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="Mozzarella cheese" cheked>
+        <label for="redsauce">mozzarella cheese</label><br>
+      </p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="sausage" cheked>
+        <label for="redsauce">sausage</label><br>
+      </p>
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="olives" cheked>
+        <label for="redsauce">olives</label><br>
+      </p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="pineapple" cheked>
+        <label for="redsauce">pineapple</label><br>
+      </p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="mushrooms" cheked>
+        <label for="redsauce">mushrooms</label><br>
+      </p>
+
+      <p>
+        <input type= "checkbox" id="redsauce"
+          name="toppings" value="white sauce" cheked>
+        <label for="redsauce">white sauce</label><br>
+      </p>
+
+      <p>
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity"
+          name="quantity" min="1" max="10">
+      </p>
+    
+    </fieldset>
+
+  <p>
+    <button type="submit" ><a href="thanks.html">Submit</a></button>
+    <input type="reset" value="reset">
+    
+  </p>
+  </from>
+</body>
+</html>
